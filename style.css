@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header-section {
+    display: flex;
+    background-color: rgb(248, 248, 246);
+}
+
+.header-left {
+    width: 90%;
+    padding: 10%;
+}
+
+.header {
+    border-left: 8px solid rgb(230, 101, 101);
+    border-radius: 30px;
+    position: relative;
+}
+
+.header-left h1 {
+    font-size: 60px;
+    padding-left: 15px;
+    letter-spacing: 1px;
+}
+
+.header-left h1 span {
+    color: rgba(113, 43, 145, 0.986);
+}
+
+a {
+    padding: 15px 30px;
+    background-color: rgb(25, 161, 93);
+    border-radius: 8px;
+    color: aliceblue;
+    text-decoration: none;
+    position: absolute;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.scroll {
+    position: absolute;
+    margin-top: 85px;
+}
+
+p {
+    font-size: 20px;
+    color: rgba(214, 179, 24, 0.966);
+    letter-spacing: 1px;
+}
+
+.header-right img {
+    width: 80%;
+}
