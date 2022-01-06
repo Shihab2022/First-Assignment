@@ -75,8 +75,8 @@ p {
 }
 
 .card img {
-    height: 40%;
-    width: 50%;
+    height: 45%;
+    width: 45%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -110,3 +110,24 @@ p {
 
 
 /* end  develop section */
+
+
+/* start footer section */
+
+.footer-section {
+    background-color: black;
+    padding: 20px;
+    align-items: center;
+}
+
+.footer-section h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.footer-section p {
+    text-align: center;
+    color: white;
+    letter-spacing: 2px;
+}
