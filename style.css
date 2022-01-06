@@ -2,8 +2,10 @@ body {
     margin: 0;
     padding: 0;
     background-color: rgb(233, 223, 223);
-    box-sizing: border-box;
 }
+
+
+/* start  hrader section */
 
 .header-section {
     display: flex;
@@ -56,6 +58,12 @@ p {
     width: 80%;
 }
 
+
+/* end  header section */
+
+
+/*  start  card section */
+
 .card {
     height: 350px;
     width: 27%;
@@ -79,3 +87,26 @@ p {
     text-align: center;
     font-size: 35px;
 }
+
+
+/* end card  section */
+
+
+/* start  develop section */
+
+.develop-section {
+    display: flex;
+    margin: 15% 10%;
+}
+
+.develop-section img {
+    width: 80%;
+    margin-top: 15%;
+}
+
+.develop-section .develop-wriiten {
+    width: 170%;
+}
+
+
+/* end  develop section */
